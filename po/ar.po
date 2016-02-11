@@ -34,11 +34,11 @@ msgstr ""
 
 #: ../src/daemon.vala
 msgid "No"
-msgstr ""
+msgstr "لا"
 
 #: ../src/daemon.vala
 msgid "Yes"
-msgstr ""
+msgstr "نعم"
 
 #: ../src/daemon.vala
 msgid "Failed to init transaction"
@@ -51,7 +51,7 @@ msgstr ""
 #: ../src/daemon.vala
 #, c-format
 msgid "target not found: %s"
-msgstr ""
+msgstr "الهدف لم يوجد"
 
 #: ../src/daemon.vala
 #, c-format
@@ -98,15 +98,15 @@ msgstr "فشل الإستوثاق"
 
 #: ../src/transaction.vala
 msgid "Refreshing mirrors list"
-msgstr ""
+msgstr "انعاش قائمة المرايا"
 
 #: ../src/transaction.vala
 msgid "Synchronizing package databases"
-msgstr ""
+msgstr "مزامنة قاعدة بيانات الحزم"
 
 #: ../src/transaction.vala
 msgid "Starting full system upgrade"
-msgstr ""
+msgstr "بدء عملية ترقيةالنظام الكامل"
 
 #: ../src/transaction.vala
 msgid "Preparing"
@@ -142,11 +142,11 @@ msgstr "للتحديث"
 
 #: ../src/transaction.vala ../src/updater_window.vala
 msgid "Total download size"
-msgstr ""
+msgstr "حجم التحميلات الكلي"
 
 #: ../src/transaction.vala
 msgid "Building packages"
-msgstr ""
+msgstr "جاري بناء الحزم"
 
 #: ../src/transaction.vala
 msgid "Checking dependencies"
@@ -162,7 +162,7 @@ msgstr "تحليل الإعتماديات"
 
 #: ../src/transaction.vala
 msgid "Checking inter-conflicts"
-msgstr ""
+msgstr "فحص تعاكس الداخلي"
 
 #: ../src/transaction.vala
 #, c-format
@@ -220,11 +220,11 @@ msgstr "مولد %s بـ %s"
 
 #: ../src/transaction.vala
 msgid "Generation succeeded"
-msgstr ""
+msgstr "نجاح  التوليد"
 
 #: ../src/transaction.vala
 msgid "Generation failed"
-msgstr ""
+msgstr "فشل التوليد"
 
 #: ../src/transaction.vala
 #, c-format
@@ -276,12 +276,12 @@ msgstr "تحميل %s"
 
 #: ../src/transaction.vala
 msgid "Warning"
-msgstr ""
+msgstr "تحذير"
 
 #: ../src/transaction.vala ../src/installer.vala ../src/manager.vala
 #: ../src/updater.vala
 msgid "Error"
-msgstr ""
+msgstr "خطاء"
 
 #: ../src/transaction.vala ../src/progress_dialog.vala
 msgid "Transaction cancelled"
@@ -313,7 +313,7 @@ msgstr "مدير الحزم"
 
 #: ../src/tray.vala
 msgid "_Quit"
-msgstr ""
+msgstr "_خروج"
 
 #: ../src/tray.vala ../src/updater_window.vala
 #, c-format
@@ -328,7 +328,7 @@ msgstr[5] ""
 
 #: ../src/tray.vala
 msgid "Show available updates"
-msgstr ""
+msgstr "اظهار التحديثات المتوفرة"
 
 #: ../src/choose_provider_dialog.vala
 #, c-format
@@ -368,7 +368,7 @@ msgstr "إعادة التثبيت"
 
 #: ../src/manager_window.vala
 msgid "Install optional dependencies"
-msgstr ""
+msgstr "تثبيت الاعتماديات الثانوية"
 
 #: ../src/manager_window.vala
 msgid "Mark as explicitly installed"
@@ -396,7 +396,7 @@ msgstr "يعتمد على"
 
 #: ../src/manager_window.vala
 msgid "Optional Dependencies"
-msgstr ""
+msgstr "اعتماديات ثانويه"
 
 #: ../src/manager_window.vala
 msgid "Required By"
@@ -404,7 +404,7 @@ msgstr "مطلوب من طرف"
 
 #: ../src/manager_window.vala
 msgid "Optional For"
-msgstr ""
+msgstr "ثانوي لاجل"
 
 #: ../src/manager_window.vala
 msgid "Provides"
@@ -436,7 +436,7 @@ msgstr ""
 
 #: ../src/manager_window.vala
 msgid "Last Modified"
-msgstr ""
+msgstr "أخر تغير"
 
 #: ../src/manager_window.vala
 msgid "Packager"
@@ -444,7 +444,7 @@ msgstr "محزم"
 
 #: ../src/manager_window.vala
 msgid "Build Date"
-msgstr ""
+msgstr "تاريخ البناء"
 
 #: ../src/manager_window.vala
 msgid "Install Date"
@@ -472,7 +472,7 @@ msgstr "تواقيع"
 
 #: ../src/manager_window.vala
 msgid "Votes"
-msgstr ""
+msgstr "أصوات"
 
 #: ../src/manager_window.vala
 msgid "Out of Date"
@@ -492,21 +492,21 @@ msgstr "تم إلغاء التثبيت"
 
 #: ../src/manager_window.vala ../resources/manager_window.ui
 msgid "Install Local Packages"
-msgstr ""
+msgstr "تثبيت الحزم المحلية"
 
 #: ../src/manager_window.vala ../resources/progress_dialog.ui
 #: ../resources/transaction_sum_dialog.ui ../resources/choose_dep_dialog.ui
 #: ../resources/choose_ignorepkgs_dialog.ui
 msgid "_Cancel"
-msgstr ""
+msgstr "_إلغاء"
 
 #: ../src/manager_window.vala
 msgid "_Open"
-msgstr ""
+msgstr "_فتح"
 
 #: ../src/manager_window.vala
 msgid "Alpm Package"
-msgstr ""
+msgstr "Alpm حزم الـ"
 
 #: ../src/manager_window.vala
 msgid "A Gtk3 frontend for libalpm"
@@ -514,7 +514,7 @@ msgstr ""
 
 #: ../src/manager_window.vala
 msgid "Copyright © 2015 Guillaume Benoit"
-msgstr ""
+msgstr "جميع الحقوق محفوظة © 2015 Guillaume Benoit "
 
 #: ../src/preferences_dialog.vala ../resources/preferences_dialog.ui
 msgid "How often to check for updates, value in hours"
@@ -526,19 +526,19 @@ msgstr ""
 
 #: ../src/preferences_dialog.vala
 msgid "Speed"
-msgstr ""
+msgstr "السرعة"
 
 #: ../src/preferences_dialog.vala
 msgid "Random"
-msgstr ""
+msgstr "عشوائي"
 
 #: ../src/choose_ignorepkgs_dialog.vala
 msgid "Choose the packages you do not want to upgrade"
-msgstr ""
+msgstr "اختر الحزم التى لا تريد ترقيتها"
 
 #: ../resources/choose_provider_dialog.ui
 msgid "Choose a Provider"
-msgstr ""
+msgstr "اختر المزود"
 
 #: ../resources/choose_provider_dialog.ui
 #: ../resources/transaction_sum_dialog.ui ../resources/choose_dep_dialog.ui
@@ -554,7 +554,7 @@ msgstr "تقدم"
 #: ../resources/transaction_info_dialog.ui ../resources/updater_window.ui
 #: ../resources/preferences_dialog.ui
 msgid "_Close"
-msgstr ""
+msgstr "_إغلاق"
 
 #: ../resources/progress_dialog.ui ../resources/transaction_info_dialog.ui
 #: ../resources/manager_window.ui
@@ -567,7 +567,7 @@ msgstr "سجل Pamac"
 
 #: ../resources/choose_dep_dialog.ui
 msgid "Choose Optional Dependencies"
-msgstr ""
+msgstr "اختر الاعتماديات الثانوية"
 
 #: ../resources/manager_window.ui
 msgid "View History"
@@ -575,15 +575,15 @@ msgstr "مشاهدة السجل"
 
 #: ../resources/manager_window.ui ../resources/updater_window.ui
 msgid "_Preferences"
-msgstr ""
+msgstr "_خصائص"
 
 #: ../resources/manager_window.ui
 msgid "_About"
-msgstr ""
+msgstr "_حول"
 
 #: ../resources/manager_window.ui
 msgid "Refresh databases"
-msgstr ""
+msgstr "إنعاش قاعدة البيانات"
 
 #: ../resources/manager_window.ui
 msgid "Apply changes"
@@ -591,7 +591,7 @@ msgstr "تطبيق التغييرات"
 
 #: ../resources/manager_window.ui
 msgid "Cancel all planned changes"
-msgstr ""
+msgstr "الغاء كل التغيرات"
 
 #: ../resources/manager_window.ui
 msgid "Search in AUR"
@@ -623,11 +623,11 @@ msgstr "حجم"
 
 #: ../resources/manager_window.ui
 msgid "Description"
-msgstr ""
+msgstr "الوصف"
 
 #: ../resources/manager_window.ui
 msgid "Dependencies"
-msgstr ""
+msgstr "الاعتماديات"
 
 #: ../resources/manager_window.ui
 msgid "Files"
@@ -635,15 +635,15 @@ msgstr "ملفات"
 
 #: ../resources/updater_window.ui
 msgid "_Refresh"
-msgstr ""
+msgstr "انعاش"
 
 #: ../resources/updater_window.ui
 msgid "_Apply"
-msgstr ""
+msgstr "طبق"
 
 #: ../resources/preferences_dialog.ui
 msgid "Preferences"
-msgstr ""
+msgstr "الخصائص"
 
 #: ../resources/preferences_dialog.ui
 msgid "Remove unrequired dependencies"
@@ -657,11 +657,11 @@ msgstr ""
 
 #: ../resources/preferences_dialog.ui
 msgid "Check available disk space"
-msgstr ""
+msgstr "فحص مساحة القرص المتوفرة""
 
 #: ../resources/preferences_dialog.ui
 msgid "Check for updates"
-msgstr ""
+msgstr "فحص التحديثات"
 
 #: ../resources/preferences_dialog.ui
 msgid "Hide tray icon when no update available"
@@ -669,27 +669,27 @@ msgstr ""
 
 #: ../resources/preferences_dialog.ui
 msgid "Ignore upgrades for:"
-msgstr ""
+msgstr "تجاهل الترقيات لاجل"
 
 #: ../resources/preferences_dialog.ui
 msgid "General"
-msgstr ""
+msgstr "عام"
 
 #: ../resources/preferences_dialog.ui
 msgid "Use mirrors from:"
-msgstr ""
+msgstr "استعمل مرايا من"
 
 #: ../resources/preferences_dialog.ui
 msgid "Sort mirrors by:"
-msgstr ""
+msgstr "ترتيب المرايا حسب"
 
 #: ../resources/preferences_dialog.ui
 msgid "Refresh Mirrors List"
-msgstr ""
+msgstr "انعاش قائمة المرايا"
 
 #: ../resources/preferences_dialog.ui
 msgid "Official Repositories"
-msgstr ""
+msgstr "المخازن الرسمية"
 
 #: ../resources/preferences_dialog.ui
 msgid ""
@@ -715,7 +715,7 @@ msgstr ""
 
 #: ../resources/preferences_dialog.ui
 msgid "Do not ask for confirmation when building packages"
-msgstr ""
+msgstr "لا تطلب تاكيد عند بناء الحزم"
 
 #: ../resources/preferences_dialog.ui
 msgid "AUR"
@@ -723,4 +723,4 @@ msgstr ""
 
 #: ../resources/choose_ignorepkgs_dialog.ui
 msgid "Choose Ignored Upgrades"
-msgstr ""
+msgstr "اختر الترقيات متجاهلة"
